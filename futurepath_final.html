@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering Students Through Technology</title>
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            position: relative;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+            background-image: url('img3.j');
+            /* Add your image path here */
+            background-size: cover;
+            /* Ensure the background image covers the entire element */
+            background-position: center;
+            /* Center the background image */
+            color: white;
+            /* Make sure the text is visible on the background */
+            padding: 50px;
+            /* Add padding for spacing around the text */
+            text-align: center;
+            /* Align the text to the center */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            /* Add a shadow to the text for better visibility */
+        }
+
+        header nav {
+            margin-top: 0.5em;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5em;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Profile icon styling */
+        .profile-icon {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('img3.jpg') no-repeat center/cover;
+            color: black;
+            padding: 6em;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+        }
+
+        .cta-btn {
+            background: white;
+            color: black;
+            padding: 0.7em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1em;
+            display: inline-white;
+        }
+
+        .cta-btn1 {
+            background: black;
+            color: white;
+            padding: 0.7em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1em;
+            display: inline-black;
+        }
+
+
+        /* General Section Styling */
+        .section {
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        .grid {
+            display: flex;
+            gap: 1em;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Card Styling for Images */
+        .card,
+        .card1,
+        .card2,
+        .card3,
+        .card4,
+        .card5,
+        .card6,
+        .card7,
+        .card8 {
+            border: 1px solid black;
+            padding: 0.7em;
+            flex: 2;
+            min-width: 220px;
+            margin: 1em;
+            text-align: center;
+            height: 250px;
+            /* Set a fixed height for uniformity */
+            color: white;
+            text-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.7);
+            /* Ensure text is visible */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card1 {
+            background-image: url('chatgpt.jpg');
+        }
+
+        .card2 {
+            background-image: url('metalogo.jpg');
+        }
+
+        .card3 {
+            background-image: url('duolingo.jpg');
+        }
+
+        .card4 {
+            background-image: url('mathway.jpg');
+        }
+
+        .card5 {
+            background-image: url('Doubtnut.jpg');
+        }
+
+        .card6 {
+            background-image: url('bashpw0i.png');
+        }
+
+        .card7 {
+
+            background-image: url('unnamed.png');
+        }
+
+        .card8 {
+            background-image: url('og.jpg');
+        }
+
+        .card9 {
+            border: 1px solid black;
+            padding: 0.7em;
+            flex: 2;
+            min-width: 220px;
+            margin: 1em;
+            text-align: center;
+            height: 250px;
+            /* Set a fixed height for uniformity */
+            color: black;
+            text-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.7);
+            /* Ensure text is visible */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width:1024px) {
+            .grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .grid {
+                grid-template-columns: 2fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="profileicon.jpg" alt="Profile Icon" class="profile-icon">
+
+            <h1>Empowering Students Through Technology</h1>
+            <nav>
+                <a href="#programs">Programs</a> |
+                <a href="#resources">Resources</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 style="color:WHITE"><i>Future Path</i></h1>
+            <p style="color:WHITE">Learn, Connect, and Thrive in a Digital World</p>
+            <a href="#programs" class="cta-btn">Explore Programs</a>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section">
+        <div class="container">
+            <h2> <b>Courses</b></h2>
+
+            <div class="grid">
+                <div class="card1">
+                    <h1>ChatGPT</h1>
+                    <br> <a href="https://chatgpt.com/" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card2">
+                    <h1 style="color:black">Meta AI</h1>
+                    <br><a href="https://www.meta.ai/" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card3">
+                    <h1 style="color:black">Duolingo</h1>
+                    <br><a href="https://www.duolingo.com/" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card4">
+                    <h1 style="color:black">Mathway</h1>
+                    <br><a href="https://www.mathway.com/Algebra" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card5">
+                    <h1 style="color:black">Doubtnut</h1>
+                    <br><a href="https://www.doubtnut.com/" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card6">
+                    <h1 style="color:black">Brainly</h1>
+                    <br><a href="https://brainly.in/" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card7">
+                    <h1 style="color:black">Epic</h1>
+                    <a href="https://www.epicgames.com/site/en-US/home" class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+                <div class="card8">
+                    <h1 style="color:black">Prodigy</h1>
+                    <br><a href="https://sso.prodigygame.com/game/login?rid=e0d8a51b-7c80-45cf-8244-1e3429ff48ca"
+                        class="cta-btn1" target="_blank">EXPLORE</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section">
+        <div class="container">
+            <h2>Resources Hub</h2>
+            <p>Access articles, tutorials, tools, and more to support your tech journey.</p>
+            <div class="grid">
+                <div class="card9">
+                    <h3>chatgpt</h3>
+                    <a href="https://www.youtube.com/watch?v=YQvlqWsnxCs"><img src="chatgptvideo.jpg" height="200px"
+                            width="250px"></a>
+                </div>
+                <div class="card9">
+                    <h3>Meta Ai</h3>
+                    <a href="https://youtu.be/Sx_lZpfKjnQ"><img src="metavideo.png" height="200px" width="250px"></a>
+                </div>
+                <div class="card9">
+                    <h3>Duolingo</h3>
+                    <a href="https://youtu.be/Sx_lZpfKjnQ"><img src="duolingovideo.jpg" height="200px"
+                            width="250px"></a>
+
+                </div>
+                <div class="card9">
+                    <h3>MathWay</h3>
+                    <a href="https://www.youtube.com/watch?v=-GOrtD2XJHU"><img src="mathwayvideo.jpg" height="200px"
+                            width="250px"></a>
+
+                </div>
+                <div class="card9">
+                    <h3>Brainly</h3>
+                    <a href="https://www.youtube.com/watch?v=-GOrtD2XJHU"><img src="brainlyvideo.jpeg" height="200px"
+                            width="250px"></a>
+                </div>
+                <div class="card9">
+                    <h3>Doubtnut</h3>
+                    <a href="https://www.youtube.com/watch?v=-GOrtD2XJHU"><img src="doubtnutvedio.jpg" height="200px"
+                            width="250px"></a>
+                </div>
+
+                <div class="card9">
+                    <h3>Epic</h3>
+                    <a href="https://www.youtube.com/watch?v=-GOrtD2XJHU"><img src="epicvideo.jpg" height="200px"
+                            width="250px"></a>
+                </div>
+
+                <div class="card9">
+                    <h3>Prodigy</h3>
+                    <a href="https://www.youtube.com/watch?v=-GOrtD2XJHU"><img src="proudgyvideo.jpg" height="200px"
+                            width="250px"></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Empowering Students Through Technology. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
