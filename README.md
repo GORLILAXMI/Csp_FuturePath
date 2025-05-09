@@ -12,10 +12,7 @@ This project is a web-based platform designed to **empower students** by introdu
 - **Resources Hub** linking to video tutorials for each platform
 - **Footer** with copyright
 
-## 🖼️ Screenshot
 
-![screenshot](img3.jpg)  
-*Note: Replace with a screenshot of your website if available.*
 
 ## 🧱 Built With
 
